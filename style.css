@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items:left;
+    justify-content:left;
+}
+#java{
+    background-image:url(./images/img.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    
+}
+#java::after{
+    content:' ';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    opacity: .7;
+    z-index: -1;
+}
+#java h1{
+    display: block;
+    width:fit-content;
+    font-size: 50px;
+    position: relative;
+    color:black;
+    float: left;
+    
+    }
+.main{
+    max-width: 1100px;
+    margin:auto;
+    padding: 20px;
+    
+}
+#java ul{
+    list-style-type:none;
+    float:right;
+    margin: top 30px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:5px;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+    transition: 0.6s ease;
+}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    
+    border-radius: 15px;
+    position:absolute;
+    top: 30%;
+    left:10%;
+    
+    
+    
+}
+
+
+h2{
+text-align: center;
+color: #277582;
+padding: 20px;
+}
+label{
+color: black;
+font-size: 17px;
+}
+#Uname{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+#Pass{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+}
+#log{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 0px;
+float:left;
+color: blue;
+
+
+}
+span{
+color: white;
+font-size: 17px;
+}
+a{
+float: left;
+background-color: grey;
+}
+.active{
+    background-color: white;
+    color: black;
+
+}
